@@ -39,28 +39,28 @@ library
   exposed-modules:      Network.HTTP.Proxy
                         Network.HTTP.Proxy.Request
 
-  build-depends:        base                    >= 4           && < 5
-                      , async                   == 2.2.*
-                      , blaze-builder           == 0.4.*
-                      , bytestring              == 0.10.*
-                      , bytestring-lexing       == 0.5.*
-                      , case-insensitive        == 1.2.*
-                      , conduit                 == 1.3.*
-                      , conduit-extra           == 1.3.*
-                      , http-client             == 0.6.*
-                      , http-conduit            == 2.3.*
-                      , http-types              == 0.12.*
-                      , mtl                     == 2.2.*
-                      , network                 == 2.8.*
-                      , resourcet               == 1.2.*
-                      , streaming-commons       == 0.2.*
-                      , tls                     == 1.4.*
-                      , text                    == 1.2.*
-                      , transformers            == 0.5.*
-                      , wai                     == 3.2.*
-                      , wai-conduit             == 3.0.*
-                      , warp                    == 3.2.*
-                      , warp-tls                == 3.2.*
+  build-depends:        base
+                      , async
+                      , blaze-builder
+                      , bytestring
+                      , bytestring-lexing
+                      , case-insensitive
+                      , conduit
+                      , conduit-extra
+                      , http-client
+                      , http-conduit
+                      , http-types
+                      , mtl
+                      , network
+                      , resourcet
+                      , streaming-commons
+                      , tls
+                      , text
+                      , transformers
+                      , wai
+                      , wai-conduit
+                      , warp
+                      , warp-tls
 
 
 
@@ -87,16 +87,16 @@ test-suite test
                       , bytestring-lexing
                       , case-insensitive
                       , conduit
-                      , connection              >= 0.2
+                      , connection
                       , conduit-extra
                       , http-client
                       , http-conduit
                       , http-proxy
                       , http-types
-                      , hspec                   >= 2.1
+                      , hspec
                       , network
-                      , QuickCheck              >= 2.7
-                      , random                  >= 1.1
+                      , QuickCheck
+                      , random
                       , resourcet
                       , text
                       , vault
@@ -128,16 +128,16 @@ test-suite test-io
                       , bytestring-lexing
                       , case-insensitive
                       , conduit
-                      , connection              >= 0.2
+                      , connection
                       , conduit-extra
                       , http-client
                       , http-conduit
                       , http-proxy
                       , http-types
-                      , hspec                   >= 2.1
+                      , hspec
                       , network
-                      , QuickCheck              >= 2.7
-                      , random                  >= 1.1
+                      , QuickCheck
+                      , random
                       , resourcet
                       , text
                       , vault
